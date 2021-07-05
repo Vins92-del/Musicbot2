@@ -59,7 +59,7 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
                 ],[
                     InlineKeyboardButton(
-                        "🎁 Donate", url=f"https://t.me/VckyouuBitch")
+                        "🎁 Donate", url=f"https://t.me/davialfajr")
                 ]
             ]
         ),
@@ -121,12 +121,12 @@ def map(pos):
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "💁🏻‍♂️ **Apakah Anda ingin mencari Link YouTube?**",
+        "💁🏻‍♂️ **BOT AKTIF YAK :v\nTulis /play <judul lagu>\nContoh : /play ada aku disini**",
         reply_markup=InlineKeyboardMarkup(
             [   
                 [    
                     InlineKeyboardButton(
-                        "✅ Ya", switch_inline_query_current_chat=""
+                        "Instagram", url="https://instagram.com/davialfajr_"
                     ),
                     InlineKeyboardButton(
                         "❌ Tidak ", callback_data="close"
@@ -168,10 +168,10 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url=f"https://t.me/GeezSupportGroup"
+                        "Group Support", url=f"https://t.me/caritemanh"
                     ),
                     InlineKeyboardButton(
-                        "Created By", url=f"https://t.me/VckyouuBitch"
+                        "Created By", url=f"https://t.me/davialfajr"
                     )
                 ]
             ]
