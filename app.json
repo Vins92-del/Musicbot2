@@ -1,8 +1,8 @@
 {
-  "name": "Geez Music",
+  "name": "Musicbot2",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/vckyou/Geez-MusicProject",
+  "repository": "https://github.com/davi78/Musicbot2",
   "stack": "container",
   "buildpacks": [
    {
